@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/*---TIPOGRAFIAS---*/
+/*---GAMA CROMÁTICA---*/
+body {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #1150cf;
+}
+
+.cuerpo {
+  background-color: #13c5fc;
+}
+
+header img {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+header nav .menu {
+  background-color: #02225f;
+  height: 35px;
+  margin-top: -4px;
+}
+
+header nav .menu li {
+  display: inline-block;
+  list-style: none;
+  width: 205px;
+  margin-left: -2px;
+  margin-right: -2px;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: "Verdana";
+}
+
+li:hover {
+  background-color: #1150cf;
+  font-weight: bold;
+}
+
+.boton:hover {
+  background-color: #1150cf;
+  font-weight: bold;
+}
+
+.seleccionado {
+  background-color: #13c5fc;
+  font-weight: bold;
+}
+
+.seleccionado:hover {
+  background-color: #13c5fc;
+  font-weight: bold;
+}
+
+a {
+  color: #bceaf8;
+  text-decoration: none;
+}
+
+/*--------------INDEX---------------------*/
+.descripción {
+  float: left;
+  width: 60%;
+  margin: 20px;
+}
+
+.descripción .tituloppal {
+  font-family: "Verdana";
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: #02225f;
+}
+
+.descripción .txtdescriptivo {
+  font-family: "Arial";
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.registro {
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+  padding-top: 22px;
+}
+
+.registro .titulosecundario {
+  font-family: "Verdana";
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: #02225f;
+}
+
+.registro form .completar {
+  width: 238px;
+  height: 25px;
+  font-family: "Arial";
+  background-color: #bceaf8;
+  border: 2px solid #bceaf8;
+}
+
+.registro form .boton {
+  margin-top: 10px;
+  height: 25px;
+  width: 121px;
+  font-family: "Arial";
+  background-color: #02225f;
+  border: 0px solid #02225f;
+  border-radius: 5px;
+  color: #13c5fc;
+}
+
+footer {
+  background-color: #02225f;
+  height: 30px;
+}
+
+footer .legales {
+  font-family: "Arial";
+  text-align: center;
+  font-size: 14px;
+  padding-top: 7px;
+  color: #bceaf8;
+}
+
+.informacion-index {
+  margin: -15px 40px;
+  height: 380px;
+}
+
+/*--------------COMO LLEGAR---------------------*/
+.informacion-llegar {
+  margin: -15px 40px;
+  height: 580px;
+}
+
+/*--------------ORADORES---------------------*/
+.informacion-oradores {
+  margin: -15px 40px;
+  height: 930px;
+}
+
+.oradores {
+  height: 200px;
+}
+
+.oradores .foto-orador {
+  float: left;
+  width: 40%;
+  height: 20px;
+  margin-right: 5%;
+}
+
+.oradores .foto-orador img {
+  width: 100%;
+  border-radius: 100px;
+}
+
+.oradores .descripcion-orador {
+  display: inline-block;
+  width: 55%;
+  height: 40px;
+}
+
+.oradores .descripcion-orador .nombre-orador {
+  font-family: "Verdana";
+  color: #02225f;
+  margin-top: 12px;
+}
+
+.oradores .descripcion-orador .resumen-orador {
+  font-family: "Arial";
+  font-size: 15px;
+}
+
+/*--------------SPONSORS---------------------*/
+.informacion-sponsors {
+  margin: -15px 40px;
+  height: 650px;
+}
+
+.nivelsponsors .texto-nivel {
+  font-family: "Verdana";
+  font-size: 20px;
+  background-color: #02225f;
+  color: #bceaf8;
+  padding: 5px 20px 5px 20px;
+}
+
+.nivelsponsors i {
+  padding-left: 18px;
+  color: #bceaf8;
+  font-size: 50px;
+}
+/*# sourceMappingURL=style.css.map */
